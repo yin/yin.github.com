@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Yin's personal pagex">
+    <meta name="author" content="Matej Gagyi">
+    <link rel="shortcut icon" href="favicon.png">
     <title>Yin - born as coder</title>
+
+    <style>
+      body {
+        padding: 50px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <ul>
-      <li><a href="http://yin.github.io/html5-examples/">HTML5-examples</a></li>
-      <li><a href="http://yin.github.io/university-html5/">University-HTML5</a> prezentation (CSS 3D effects broken)</li>
-    </ul>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Matej Gagyi</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="well">
+        <h1>Info about me</h1>
+        <p><a href="https://twitter.com/yinotaurus">Go To my twitter</a></p>
+        <p>I studied electrical engineering and computer science. I am fascinated by
+          nature, physics, math and such things. I started coding early and I will
+          never stop learning to code. As a proud user of Linux I stopped using Gentoo
+          after learning quite a bit about the inner gears of this platform. My favorite
+          language is Java, but I use several langauges on a normal day.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="rows">
+        <div class="col-md-6">
+          <h2>Yin on Github:</h2>
+          <div class="github-card" data-github="yin" data-width="400" data-height="151"></div>
+          <script src="http://lab.lepture.com/github-cards/widget.js"></script>
+        </div>
+        <div class="col-md-6">
+          <h2>Repositories</h2>
+          <p><a href="http://github.com/yin?tab=repositories">...See all my GitHub ropositories</a></p>
+          <div class="list-group">
+            <a class="list-group-item active">My project pages on Github:</a>
+            <a class="list-group-item" href="http://yin.github.io/html5-examples/"><strong>HTML5-examples</strong></a>
+            <a class="list-group-item" href="http://yin.github.io/university-html5/"><strong>University-HTML5 prezentation (3D effects broken)</strong></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
